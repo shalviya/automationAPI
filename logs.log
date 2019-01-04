@@ -1,0 +1,8 @@
+2018-10-16 10:53:46 [stepdefinition.AttachHooks] INFO :: Inside set up method of before hook
+2018-10-16 10:53:46 [stepdefinition.AttachHooks] INFO :: User performs sale of ig games
+2018-10-16 10:53:46 [stepdefinition.AttachHooks] INFO :: Api execution started
+2018-10-16 10:53:49 [com.skilrock.ige.api.LoginPms] ERROR:: Exceptionjava.net.ConnectException: Connection refused: connect
+2018-10-16 10:53:49 [stepdefinition.AttachHooks] INFO :: Inside set up method of before hook
+2018-10-16 10:53:49 [stepdefinition.AttachHooks] INFO :: User performs sale of ig games
+2018-10-16 10:53:49 [stepdefinition.AttachHooks] INFO :: Api execution started
+2018-10-16 10:53:51 [com.skilrock.ige.api.LoginPms] ERROR:: Exceptionjava.net.ConnectException: Connection refused: connect

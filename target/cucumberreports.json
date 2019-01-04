@@ -1,0 +1,222 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3875006607,
+              "error_message": "java.lang.AssertionError: Login api not working\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.skilrock.ige.api.LoginPms.authenticate(LoginPms.java:55)\r\n\tat stepdefinition.User_api_function.app_user_is_authenticated(User_api_function.java:29)\r\n\tat ✽.Given player Authenticated via \"PMS\"(igticketsale/winningtickets.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "player Authenticated via \"PMS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PMS\"",
+                  "offset": 25
+                }
+              ],
+              "location": "User_api_function.app_user_is_authenticated(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 136667830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User performs sale of ig games",
+        "description": "",
+        "id": "pms-ig-sale;user-performs-sale-of-ig-games;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 14726,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User performs sale of 210 and finishes the game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "210",
+                  "offset": 22
+                }
+              ],
+              "location": "User_api_function.sale(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@mobile"
+          },
+          {
+            "line": 1,
+            "name": "@sale"
+          },
+          {
+            "line": 1,
+            "name": "@IGticket"
+          },
+          {
+            "line": 7,
+            "name": "@gameSale"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1983071896,
+              "error_message": "java.lang.AssertionError: Login api not working\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.skilrock.ige.api.LoginPms.authenticate(LoginPms.java:55)\r\n\tat stepdefinition.User_api_function.app_user_is_authenticated(User_api_function.java:29)\r\n\tat ✽.Given player Authenticated via \"PMS\"(igticketsale/winningtickets.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "player Authenticated via \"PMS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PMS\"",
+                  "offset": 25
+                }
+              ],
+              "location": "User_api_function.app_user_is_authenticated(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1478608,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User performs sale of ig games",
+        "description": "",
+        "id": "pms-ig-sale;user-performs-sale-of-ig-games;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 11327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AttachHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User performs sale of 211 and finishes the game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "211",
+                  "offset": 22
+                }
+              ],
+              "location": "User_api_function.sale(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@mobile"
+          },
+          {
+            "line": 1,
+            "name": "@sale"
+          },
+          {
+            "line": 1,
+            "name": "@IGticket"
+          },
+          {
+            "line": 7,
+            "name": "@gameSale"
+          }
+        ]
+      }
+    ],
+    "name": "Pms ig sale",
+    "description": "",
+    "id": "pms-ig-sale",
+    "keyword": "Feature",
+    "uri": "igticketsale/winningtickets.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@IGticket"
+      },
+      {
+        "line": 1,
+        "name": "@sale"
+      },
+      {
+        "line": 1,
+        "name": "@mobile"
+      }
+    ]
+  }
+]
